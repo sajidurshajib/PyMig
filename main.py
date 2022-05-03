@@ -1,8 +1,8 @@
-from unicodedata import name
 from PyMig import Connect, Crud
 
+
 def app():
-    c  = Crud(database='new')
+    c2 = Crud(database="meo")
 
 
 if __name__ == "__main__":
